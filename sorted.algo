@@ -1,0 +1,33 @@
+ALGORITHM checkpoint8
+VAR
+    arr0 : ARRAY_OF INTEGER[];
+    sorted_arr : ARRAY_OF INTEGER[];
+    max=0:INTEGER;
+    j=0:INTEGER
+
+BEGIN
+WHILE (j<>arr0.length-1) DO
+    set_instructions
+
+    FOR i FROM 0 TO max arr0.length-1 1  DO
+    if(arr0[i]>max)
+    {
+        max=arr0[i];
+        indice=i;
+        
+
+    }
+    
+        
+    END_FOR
+
+
+
+    delete(arr0[indice]);
+
+
+    
+    sorted_arr[j]=max;
+j++;
+    END_WHILE
+END
